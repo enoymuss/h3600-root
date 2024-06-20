@@ -58,10 +58,10 @@ sudo iptables -t nat -A PREROUTING -p tcp --dport 8015 -j REDIRECT --to-port 808
 sudo pppoe-server -I $ethkarti -L 10.116.13.1 -R 10.116.13.100 -N 100
 clear
 
-printf "\nBundan sonraki adımda açılan ekranda bad request hatasını beklemelisiniz. \n O hatayı görürseniz işleminiz bitmiştir arayüzden $YELsUser$NC kullanıcısına $YELSolroot2024.$NC şifresi ile girebilirsiniz. \n İşlemi başlatmak için$CYA Enter$NC 'a basın.\n"
+printf "\nBundan sonraki adımda açılan ekranda bad request hatasını beklemelisiniz. \n O hatayı görürseniz işleminiz bitmiştir arayüzden $YEL sUser $NC kullanıcısına $YEL Solroot2024. $NC şifresi ile girebilirsiniz. \n İşlemi başlatmak için$CYA Enter$NC 'a basın.\n"
 read ileri
 
 sudo mitmproxy -s istek_degistirici.py -k --mode transparent --showhost --listen-port 8080
 
-printf "Umarım başarılı olmuşsundur aklına takılan birşey yada sormak istediğin birşey var ise $GRN https://ensty.site/hesaplar$NC üzerindeki hesaplardan bana ulaşabilirsin.\n"
+printf "Umarım başarılı olmuşsundur aklına takılan birşey yada sormak istediğin birşey var ise $GRN https://ensty.site/hesaplar $NC üzerindeki hesaplardan bana ulaşabilirsin.\n"
 
