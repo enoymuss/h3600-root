@@ -12,3 +12,5 @@ Daha detaylı anlattığım forum linkleri:
 https://techolay.net/sosyal/konu/zte-h3600-root-kullanicisi-aktiflestirme.34416/
 
 https://forum.donanimhaber.com/zte-zxhn-h3600-root-sifresi-etkinlestirme--158942961
+
+https://forum.donanimhaber.com/zte-zxhn-h3600-root-sifresi-etkinlestirme--158942961
