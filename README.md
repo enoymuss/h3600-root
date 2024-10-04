@@ -5,8 +5,9 @@ NOT: Çalışması için Türkcell ip adresine sahip ağa bağlı olmanız gerek
 NOT: Scripti istek_degistirici.py ile aynı klasörde çalıştırmanız gerekli.  
 İşlemi başlatmak için "sudo bash h3600.sh" yazın ve yönergeleri izleyin.  
 
-GÜNCELLEME:
-04.10.2024 PPPoE bilgileri alıcı eklendi root atıldığında kullanıcı adı şifresi default
+GÜNCELLEME: 
+04.10.2024  
+PPPoE bilgileri alıcı eklendi root atıldığında kullanıcı adı şifresi default
 kalıyordu o yüzden scriptin içine kullanıcı adı şifre öğrenme eklendi ilk önce onunla
 kullanıcı adınızı şifrenizi alıp sonrasında root atabilirsiniz.
 
