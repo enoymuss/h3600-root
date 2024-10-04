@@ -29,7 +29,7 @@ do
             read wifikarti
 
             apt update && apt install pppoe mitmproxy --assume-yes
-
+            sudo pkill pppoe-server
             printf "\"fiber@fiber\"   *       \"fiber\"         *\n">/etc/ppp/pap-secrets
             printf "\"fiber@fiber\"   *       \"fiber\"         *\n">/etc/ppp/chap-secrets
 
@@ -52,14 +52,13 @@ do
             printf "noipx\n">>/etc/ppp/options
 
             clear
-
             printf "\nUyarı: Wifi bağlantınızı yapmayı unutmayın, zaten ağa bağlıysanız devam etmek için$CYA Enter$NC 'a basın. "
             read ileri
 
             printf "\nSırasıyla; \n1 - Router ın$YEL WAN$NC kablosunu çıkarın ve bilgisayarınızın ethernet girişindeki ethernet kablosunu router ın wan portuna takın, \n2 - Router ı reset tuşuyla fabrika ayarlarına döndürün. \n3 - Ilerlemek için$CYA Enter$NC 'a basın."
             read ileri
             clear
-
+            
             sudo sysctl net.ipv4.ip_forward=1
             sudo iptables -t nat -A POSTROUTING -o $wifikarti -j MASQUERADE
             sudo iptables -t nat -A PREROUTING -p tcp --dport 8015 -j REDIRECT --to-port 8080
@@ -83,7 +82,7 @@ do
           printf "Ethernet kartı arayüzü adı: "
           read ethkarti
           sudo apt update && sudo apt install pppoe mitmproxy --assume-yes
-         clear
+          clear
             printf "ms-dns 213.74.1.1\n">/etc/ppp/pppoe-server-options
             printf "ms-dns 213.74.0.1\n">>/etc/ppp/pppoe-server-options
             printf "require-pap\n">>/etc/ppp/pppoe-server-options
