@@ -1,4 +1,4 @@
-ZTE ZXHN H3600 V9 superuser aktifleştirme scripti
+ZTE ZXHN H3600/H3600P V9 superuser aktifleştirme scripti
 
 NOT: Bunları yaparken kendi sorumluluğunuzdasınız.  
 NOT: Çalışması için Türkcell ip adresine sahip ağa bağlı olmanız gerekmekte.  
