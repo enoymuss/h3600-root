@@ -13,6 +13,9 @@ kullanıcı adınızı şifrenizi alıp sonrasında root atabilirsiniz.
 
 Yapılış videosu: https://youtube.com/watch?v=dkZndmBmWX4
 
+VirtualBox imaj dosyam: https://drive.google.com/file/d/1P5KP04avSZrYHerHIvGwupZB43ZLK7gi/view?usp=drive_link  
+(virtualbox da içeri aktar seçeneğiyle sanal makineyi içeri aktarıp ayarlardan bağdaştırıcı 1 ve bağdaştırıcı 2 ayarlarını yapıp sorunsuzca çalıştırabilirsiniz)  
+
 Daha detaylı anlattığım forum linkleri:
 
 https://techolay.net/sosyal/konu/zte-h3600-root-kullanicisi-aktiflestirme.34416/
