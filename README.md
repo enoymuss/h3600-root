@@ -5,7 +5,15 @@ NOT: Çalışması için Türkcell ip adresine sahip ağa bağlı olmanız gerek
 NOT: Scripti istek_degistirici.py ile aynı klasörde çalıştırmanız gerekli.  
 İşlemi başlatmak için "sudo bash h3600.sh" yazın ve yönergeleri izleyin.  
 
-GÜNCELLEME: 
+GÜNCELLEME:
+27.06.2025
+Tamamen otomatik sisteme geçildi artık herhangi bi internet bağlantısı olmadan da root atabilirsiniz güncel ve tam otomasyon imaj dosyasını ve yapılış videosunu ekliyorum:
+
+imaj: https://dosya.ensty.org/s/5R6ezzkFHcLWQaZ , https://drive.google.com/file/d/1SwgOnueoJ6YzmHhdZrh-6AtStR7Erihs/view?usp=sharing
+
+yapılış: https://www.youtube.com/watch?v=Sipyzy4oXlI
+
+
 04.10.2024  
 PPPoE bilgileri alıcı eklendi root atıldığında kullanıcı adı şifresi default
 kalıyordu o yüzden scriptin içine kullanıcı adı şifre öğrenme eklendi ilk önce onunla
