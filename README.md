@@ -7,7 +7,8 @@ NOT: Scripti istek_degistirici.py ile aynı klasörde çalıştırmanız gerekli
 
 GÜNCELLEME:  
 
-27.06.2025
+27.06.2025  
+
 Tamamen otomatik sisteme geçildi artık herhangi bi internet bağlantısı olmadan da root atabilirsiniz güncel ve tam otomasyon imaj dosyasını ve yapılış videosunu ekliyorum:
 
 imaj: https://dosya.ensty.org/s/5R6ezzkFHcLWQaZ , https://drive.google.com/file/d/1SwgOnueoJ6YzmHhdZrh-6AtStR7Erihs/view?usp=sharing
