@@ -5,7 +5,8 @@ NOT: Çalışması için Türkcell ip adresine sahip ağa bağlı olmanız gerek
 NOT: Scripti istek_degistirici.py ile aynı klasörde çalıştırmanız gerekli.  
 İşlemi başlatmak için "sudo bash h3600.sh" yazın ve yönergeleri izleyin.  
 
-GÜNCELLEME:
+GÜNCELLEME:  
+
 27.06.2025
 Tamamen otomatik sisteme geçildi artık herhangi bi internet bağlantısı olmadan da root atabilirsiniz güncel ve tam otomasyon imaj dosyasını ve yapılış videosunu ekliyorum:
 
