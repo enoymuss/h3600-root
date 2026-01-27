@@ -4,10 +4,7 @@ ZTE ZXHN H3600/H3600P V9 superuser aktifleştirme scripti
 
 **Firmware sürümünüz V9.0.0P16_TR ve altıysa script çalışmaya devam edecektir o yüzden indirme linklerini kaldırmayacağım.**
 
-NOT: Bunları yaparken kendi sorumluluğunuzdasınız.  
-NOT: Çalışması için Türkcell ip adresine sahip ağa bağlı olmanız gerekmekte.  
-NOT: Scripti istek_degistirici.py ile aynı klasörde çalıştırmanız gerekli.  
-İşlemi başlatmak için "sudo bash h3600.sh" yazın ve yönergeleri izleyin.  
+NOT: Bunları yaparken kendi sorumluluğunuzdasınız.    
 
 GÜNCELLEME:  
 
